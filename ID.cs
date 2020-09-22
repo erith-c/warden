@@ -8,9 +8,14 @@ namespace ALS.WARDEN
 	{
 		private static int _ID = 0;
 
-		public static string GetID()
+		public static string NewID()
 		{
 			_ID++;
+			return GetID();
+		}
+
+		public static string GetID()
+		{
 			return _ID.ToString("X");
 		}
 	}
