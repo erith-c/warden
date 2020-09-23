@@ -4,7 +4,7 @@ namespace AngelLight.Overseer
 {
 	class Program
 	{
-		static void Main(string[] args)
+		static void OSMain(string[] args)
 		{
 			using (var MainWindow = new Window(800, 600, "Overseer"))
 			{
